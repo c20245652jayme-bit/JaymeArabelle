@@ -1,10 +1,17 @@
 ---
-import BaseLayout  from "../Layouts/BaseLayout.astro";
-const name = "Arabelle Jayme";
-const position = "Web Developer";
+import BaseLayout from "../Layouts/BaseLayout.astro";
+import About from "../sections/About.astro";
+import Contact from "../sections/Contact.astro";
+import Hero from "../sections/Hero.astro";
+import Projects from "../sections/Project.astro";
+import Services from "../sections/Services.astro";
 ---
 
 <BaseLayout>
-    <h1 class="text-red-700">{name} | {position}</h1>
-    <p class="text-brown-700"> Arabelle</p>
+    <Hero />
+    <About /> 
+    <Contact />
+    <Projects />
+    <Services />
+
 </BaseLayout>
